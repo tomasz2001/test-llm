@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "test-llm-backend": {
+      "main": "src/test-llm-backend/main.mo",
+      "type": "motoko"
+    },
+    "test-llm-frontend": {
+      "dependencies": [
+        "test-llm-backend"
+      ],
+      "source": [
+        "src/test-llm-frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "test-llm-frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
