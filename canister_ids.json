@@ -1,0 +1,8 @@
+{
+  "test-llm-backend": {
+    "ic": "p3plu-xyaaa-aaaai-atglq-cai"
+  },
+  "test-llm-frontend": {
+    "ic": "p4ona-2aaaa-aaaai-atgla-cai"
+  }
+}
